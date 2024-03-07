@@ -277,6 +277,7 @@ class ContributionGraph extends AbstractChart<
         height={squareSize}
         x={x + paddingLeft}
         y={y}
+        rx="15"
         title={this.getTitleForIndex(index)}
         fill={this.getClassNameForIndex(index)}
         onPress={() => {
